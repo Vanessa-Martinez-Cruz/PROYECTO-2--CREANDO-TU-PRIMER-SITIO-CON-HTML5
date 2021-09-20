@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--estilo.css-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+    <title>Mi Sitio Web</title>
+  </head>
+  <body>
+    <!--Menú-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img class="logotipo" src="img/Logo.jpg" alt="">
+          </a>
+          <div id="menu">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Peticiones.html">Peticiones al DNS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Clientes.html">Cliente DNS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Servidores.html">¿Qué es un servidor DNS?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Zonas.html">¿Qué son las zonas?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Aumenta.html">¿Cómo aumenta el DNS el rendimiento web?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Cambiar.html">¿Cómo cambiar las DNS?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Notificaciones.html">Notificación de errores del DNS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Bibliografia.html">BIBLIOGRAFÍA</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </header>
+      <div class="areaPrincipal">
+        <div id="titulo">
+            <h1>Sistema de nombres de dominio (DNS)</h1></div>
+        
+            <img src="./img/Fondo.jpg" alt="" width="1350px" height="450px">
+            <div id="queEs">
+            <h2>Sistema de nombres de dominio (DNS)</h2></div>
+            <div id="datos">
+            <h5>Es un sistema de bases de datos distribuidas que permite gestionar los nombres de host y las direcciones de protocolo de Internet (IP) asociadas a ellos. <br>Con el DNS, la gente puede utilizar nombres simples (como www.jkltoys.com) para localizar un host, en lugar de tener que utilizar las direcciones IP (por ejemplo, 192.168.12.88 en IPv4, o 2001:D88::1 en IPv6). Un único servidor solo se puede encargar de conocer los nombres de host y las direcciones IP de una pequeña parte de una zona, pero los servidores DNS pueden colaborar entre sí para correlacionar todos los nombres de dominio con sus direcciones IP. Los servidores DNS que colaboran entre sí permiten que los sistemas se comuniquen por Internet. <br>Los datos de DNS se bifurcan en una jerarquía de dominios. Los servidores son responsables de conocer únicamente una parte pequeña de los datos, por ejemplo, un único subdominio. La parte de un dominio de la que el servidor es directamente responsable se denomina zona. Un servidor DNS que tenga la información y los datos de hosts completos de una zona tiene autoridad sobre la zona.</h5></div>
+            <div id="funciona">
+            <h2>¿Cómo funciona el DNS?</h2></div>
+            <div id="concepto">
+            <h5>Los servidores DNS responden preguntas tanto dentro como fuera de sus propios dominios. Cuando un servidor recibe una solicitud desde fuera del dominio para obtener información sobre un nombre o una dirección dentro del dominio, proporciona la respuesta autorizada. Cuando un servidor recibe una solicitud dentro de su propio dominio para obtener información sobre un nombre o una dirección fuera de ese dominio, transfiere la solicitud a otro servidor, generalmente uno administrado por su proveedor de servicios de internet (ISP). Si ese servidor no conoce la respuesta o la fuente autorizada de la respuesta, buscará a los servidores DNS para el dominio de nivel superior, por ejemplo, para todos los .com o .edu. Luego, pasará la solicitud al servidor autorizado para el dominio específico, por ejemplo, techtarget.com o stkate.edu.</h5></div>
+             
+
+            </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

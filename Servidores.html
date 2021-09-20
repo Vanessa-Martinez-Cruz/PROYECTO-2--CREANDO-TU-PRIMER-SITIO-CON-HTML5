@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--estilo.css-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+    <title>Mi Sitio Web</title>
+  </head>
+  <body>
+    <!--Menú-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img class="logotipo" src="img/Logo.jpg" alt="">
+          </a>
+          <div id="menu">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Peticiones.html">Peticiones al DNS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Clientes.html">Cliente DNS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Servidores.html">¿Qué es un servidor DNS?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Zonas.html">¿Qué son las zonas?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Aumenta.html">¿Cómo aumenta el DNS el rendimiento web?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Cambiar.html">¿Cómo cambiar las DNS?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Notificaciones.html">Notificación de errores del DNS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Bibliografia.html">BIBLIOGRAFÍA</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </header>
+      <div class="areaPrincipal">
+        <div id="titulo3">
+            <h1>¿Qué es un servidor DNS?</h1></div>
+
+            <div id="parrafo3">
+            <h5>Un servidor DNS, también conocido como servidor de nombres, consiste en un software para servidores que recurre a la base de datos de un DNS para responder a las peticiones que guardan relación con el espacio de nombres de dominio.
+          <br>Como, por regla general, se alojan en hosts dedicados, también se denominan así a los ordenadores que albergan estos programas. Suele hacerse una diferenciación entre servidores DNS primarios y secundarios.</h5></div>
+            
+               <div id="Servidores">
+                <div id="subtitulo3">
+            <h3>Servidor primario, principal o maestro </h3></div>
+            <div id="parrafo4">
+            <p>Se denomina a un servidor DNS primario o maestro cuando guarda la información sobre una zona determinada del espacio de nombres de dominio en su propia base de datos.  El sistema de nombres de dominio está construido de tal forma que cada zona disponga de, al menos, un servidor de nombres primario.</p>
+        </div>
+        <hr>
+            <div id="subtitulo4">
+                <h3>Servidor secundario o esclavo</h3></div>
+                <div id="parrafo5">
+                <p>Cuando la información de un servidor de nombres no procede de los archivos de zona propios, sino que son de segunda o de tercera mano, este servidor se convierte en secundario o esclavo para esta información. Esta situación se produce cuando un servidor no puede resolver una petición con su propia base de datos y ha de recurrir a la información disponible en otro servidor de nombres (resolución recursiva).</p>
+        </div> 
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
